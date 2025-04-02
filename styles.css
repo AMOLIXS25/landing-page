@@ -128,3 +128,32 @@ Quote-section
 .quote-section p:last-child {
     text-align: right;
 }
+
+/*
+call to action section
+*/
+
+.call-to-action-section {
+    padding: 4em;
+}
+
+.call-to-action-container {
+    background-color: #d81212;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.call-to-action-container .left-side h4, .call-to-action-container .left-side p {
+    margin:0;
+    color: #F9FAF8;
+}
+
+.btn-outline {
+    border: 1px solid #F9FAF8;
+    font-weight: bold;
+}
