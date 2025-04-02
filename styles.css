@@ -50,6 +50,7 @@ nav ul li a {
 
 .header-content-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-content-container .left-side {
@@ -78,4 +79,32 @@ nav ul li a {
 
 .btn-full {
     background: #d81212;
+}
+
+/*
+main-container
+*/
+
+.products-informations-section {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.products-informations-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.products-informations-section .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.products-informations-section .card-container .card img {
+    border: 2px solid #d81212;
+    border-radius: 0.4em;
 }
