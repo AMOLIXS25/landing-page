@@ -50,15 +50,16 @@ nav ul li a {
 
 .header-content-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    justify-content: space-between;
 }
 
 .header-content-container .left-side {
-    width: 50%;
+    width: 45%;
 }
 
 .header-content-container .right-side {
-    width: 50%;
+    width: 45%;
 }
 
 .header-content-container .right-side .image-cover-container {
@@ -107,4 +108,23 @@ main-container
 .products-informations-section .card-container .card img {
     border: 2px solid #d81212;
     border-radius: 0.4em;
+}
+
+/*
+Quote-section
+*/
+.quote-section {
+    background: #E5E7EB;
+    padding: 8em;
+    margin-top: 4em;
+}
+
+.quote-section p {
+    width: 50%;
+    margin: 0 auto;
+    text-align:justify;
+}
+
+.quote-section p:last-child {
+    text-align: right;
 }
