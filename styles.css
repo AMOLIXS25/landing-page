@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
 }
 
@@ -156,4 +156,10 @@ call to action section
 .btn-outline {
     border: 1px solid #F9FAF8;
     font-weight: bold;
+}
+
+footer {
+    padding: 1em;
+    color: #F9FAF8;
+    text-align: center;
 }
